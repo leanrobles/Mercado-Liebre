@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercado Liebre</title>
+    <link rel="stylesheet" href="C:\Users\User\Desktop\Desarrollo Web 1\Desafios\Clase 8\css-20220512T175137Z-001\css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link rel="icon" sizes= "64x64" href="./img-20220512T175227Z-001/img/favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/f8b9f95327.js" crossorigin="anonymous"></script>
+</head>
+<body>
+        <!--Header de Mercado Liebre-->
+    <header id="mercadoliebre">
+        <img src="./img-20220512T175227Z-001/img/mercado-liebre.png" alt="Mercado Liebre">
+        <p id="productos">Todos los productos</p>
+        <button id="opciones"><p>Todas las opciones en un solo lugar</p></button><i id="dolar" class="fa-solid fa-hand-holding-dollar"></i>
+        <div class="div-enlaces">
+            <a id="cuenta" class="header-a" >Creá tu cuenta</a><i id="card" class="fa-regular fa-address-card"></i>
+            <a id="ingresa" class="header-a" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Ingresá</a><i id="arrow" class="fa-solid fa-arrow-right-to-bracket"></i> 
+        </div>
+        <img class="img" src="./img-20220512T175227Z-001/img/banner1.jpg" alt="Banner 1 Mercado Libre">
+    </header>
+
+    <main>
+        <!--Seccion de Ofertas-->
+        <section class="ofertas">
+            <p id="ofertast">Disfruta nuestras ofertas</p>
+            <!--Tarjeta de cafetera-->
+        <div id="card1" class="card" style="width: 18rem;">
+            <img src="img-20220512T175227Z-001/img/productos/img-cafetera-moulinex.jpg" class="card-img-top" alt="cafetera">
+            <div class="card-body">
+            <p class="card-text"><strong>Cafetera Moulinex</strong></p> <button id="comprar1" type="button" class="btn btn-primary">Comprar</button>
+            </div>
+        </div>
+            <!--Tarjeta de macbook-->
+        <div id="card2" class="card" style="width: 18rem;">
+            <img src="img-20220512T175227Z-001/img/productos/img-macbook-pro-2019.jpg" class="card-img-top" alt="macbook">
+            <div class="card-body">
+            <p class="card-text"><strong>Macbook Pro 2019</strong></p> <button id="comprar2" type="button" class="btn btn-primary">Comprar</button>
+            </div>
+        </div>
+        </div>
+        <!--Tarjeta de TV LG-->
+        <div id="card3" class="card" style="width: 18rem;">
+        <img  src="img-20220512T175227Z-001/img/productos/img-tv-samsung-smart.jpg" class="card-img-top" alt="tv">
+        <div class="card-body">
+            <p class="card-text"><strong>TV LG 40 pulgadas</strong></p> <button id="comprar3" type="button" class="btn btn-primary">Comprar</button>
+            </div>
+        </div>
+        <!--Tarjeta de Samsung-->
+        <div id="card4" class="card" style="width: 18rem;">
+        <img src="img-20220512T175227Z-001/img/productos/img-samsung-galaxy-s10.jpg" class="card-img-top" alt="samsung">
+        <div class="card-body">
+            <p class="card-text"><strong>Samsung Galaxy</strong></p> <button id="comprar4" type="button" class="btn btn-primary">Comprar</button>
+        </div>
+        </div>
+        <!--Seccion de productos-->
+        <section class="productos">
+            <p id="destacados">Productos Destacados</p>
+            <!--Tarjeta de productos destacados de Samsung-->
+            <section id="galaxy">
+            <div id="card5" class="card" style="width: 30rem;">
+            <img src="img-20220512T175227Z-001/img/productos/img-samsung-galaxy-s10.jpg" class="card-img-top" alt="samsung">
+            <div class="card-body">
+            <p id="texto1" class="card-text"><strong>Smarphone Samsung Galaxy</strong></p>
+            </div>
+            </div>
+        </section>
+            <!--Tarjeta de productos destacados de TV-->
+            <section id="telelg">
+            <div id="card6" class="card" style="width: 30rem;">
+            <img src="img-20220512T175227Z-001/img/productos/img-tv-samsung-smart.jpg" class="card-img-top" alt="tv">
+            <div class="card-body">
+            <p id="texto2" class="card-text"><strong>TV Smart 40" Samsung</strong></p>
+            </div>
+            </div>
+            </main>
+            <!--Carrusel de imágenes-->
+            <div class="container">
+                <ul class="slider">
+                <li id="slide1">
+                <img id="carruselcafetera" src="img-20220512T175227Z-001/img/productos/img-cafetera-moulinex.jpg" alt="cafetera">
+                </li>
+                <li id="slide2">
+                <img id="carruselmacbook" src="img-20220512T175227Z-001/img/productos/img-macbook-pro-2019.jpg" alt="macbook">
+                </li>
+                <li id="slide3">
+                <img id="carruselsamsung" src="img-20220512T175227Z-001/img/productos/img-samsung-galaxy-s10.jpg" alt="samsung">
+                </li>
+                </ul>
+                <ul class="menu">
+                <li>
+                <a href="#slide1">1</a>
+                </li>
+                <li>
+                <a href="#slide2">2</a>
+                </li>
+                <li>
+                <a href="#slide3">3</a>
+                </li>
+                </ul>
+            </div>
+            <!--Formulario con modal-->
+            <div class="div-enlaces">
+                <a class="header-a" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Creá tu cuenta</a>
+                <a class="header-a">Ingresá</a>  
+            </div>
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Inicia Sesión</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                            <div class="registro">
+                            <div class="div-img">
+                                <img src="img-20220512T175227Z-001/img/mercado-liebre.png" class="img-registro">
+                            </div>
+                            <div class="h3-registro">
+                                <h3>Registro</h3>
+                            </div>
+                            <form>
+                                <div class="div-form">
+                                    <div class="div-registros">
+                                        <label for="nombre" class="label-registrado">Nombre: </label>
+                                        <input type="text" name="nombre" id="nombre" class="input-registro registrado">
+                                        </div>
+                                        <div class="div-registros">
+                                        <label for="email" class="label-registrado">Email: </label>
+                                        <input type="email" name="email" id="email" class="input-registro-2 registrado">
+                                        </div>
+                                        <div class="div-registros-c">
+                                        <label for="Contraseña" class="label-registrado">Contraseña: </label>
+                                        <input type="password" name="Contraseña" id="Contraseña" class="registrado">
+                                        </div>
+                                        <div class="div-registrar">
+                                        <input type="submit" value="Iniciar sesión" class="input-registro-4">
+                                        </div>
+                                    </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            
+    <footer>
+
+</footer>
+
+
+</body>
+</html>

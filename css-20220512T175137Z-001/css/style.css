@@ -1,0 +1,356 @@
+/*CSS Header*/
+#mercadoliebre{
+    background-color: #fbbc02;  
+}
+#productos{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+}
+.img{
+    width: 1904px;   
+}
+button{
+    background-color: #fbbc02;
+    width: 355px;
+    font-size: 15px;
+    border:none
+}
+button:hover{
+    font-size: 20px;
+}
+#opciones:hover{
+    font-size: 20px;
+}
+#opciones{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    transition-property: font-size, color;
+    transition-duration: .7s;
+    transition-timing-function: ease-in;
+    position: absolute;
+    font-family: 'DM Sans', sans-serif;
+    margin-left: 1470px;
+    margin-top: -170px;
+    font-size: 18px;
+    width: 400px;
+}
+#cuenta:hover{
+    font-size: 15px;
+}
+#cuenta{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    transition-property: font-size, color;
+    transition-duration: .7s;
+    transition-timing-function: ease-in;
+    position: absolute;
+    font-family: 'DM Sans', sans-serif;
+    margin-left: 1480px;
+    margin-top: -110px;
+    font-size: 18px;
+    width: 200px;
+    
+}
+#ingresa:hover{
+    font-size: 15px;
+}
+#ingresa{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    transition-property: font-size, color;
+    transition-duration: .7s;
+    transition-timing-function: ease-in;
+    position: absolute;
+    font-family: 'DM Sans', sans-serif;
+    margin-left: 1690px;
+    margin-top: -110px;
+    font-size: 18px;
+    width: 150px;
+}
+#dolar:hover{
+    font-size: 20px;
+}
+#dolar{
+    position: absolute;
+    margin-left: 1495px;
+    margin-top: -162px;
+}
+#card:hover{
+    font-size: 20px;
+}
+#card{
+    position: absolute;
+    margin-left: 1610px;   
+    margin-top: -102px;
+}
+#arrow:hover{
+    font-size: 20px;
+}
+#arrow{
+    position: absolute;
+    margin-left: 1760px;
+    margin-top: -102px;
+}
+
+/*CSS de disfruta nuestras ofertas y productos destacados*/
+#ofertast{
+    font-family: 'DM Sans', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 10px;
+    background-color: #fbbc02;
+}
+#destacados{
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 30px;
+    margin-top: 250px;
+    border-radius: 10px;
+    background-color: #fbbc02;
+    width: 1905px;
+}
+/*CSS de Tarjetas*/
+#comprar1:hover{
+    font-size: 18px;
+}
+#comprar1{
+    width: 100px;
+    margin-left: 150px;
+    margin-top: -80px;
+}
+#comprar2:hover{
+    font-size: 18px;
+}
+#comprar2{
+    width: 100px;
+    margin-left: 150px;
+    margin-top: -80px;
+}
+#comprar3:hover{
+    font-size: 18px;
+}
+#comprar3{
+    width: 100px;
+    margin-left: 150px;
+    margin-top: -80px;
+}
+#comprar4:hover{
+    font-size: 18px;
+}
+#comprar4{
+    width: 100px;
+    margin-left: 150px;
+    margin-top: -80px;
+}
+#card1:hover{
+    background-color: #fbbc02;  
+}
+#card1{
+    margin-left: 120px;
+}
+#card2:hover{
+    background-color: #fbbc02;  
+}
+#card2{
+    margin-left: 550px;
+    margin-top: -385px;
+}
+#card3:hover{
+    background-color: #fbbc02;  
+}
+#card3{
+    margin-left: 990px;
+    margin-top: -385px;
+}
+#card4:hover{
+    background-color: #fbbc02;  
+}
+#card4{
+    margin-left: 1450px;
+    margin-top: -385px;
+}
+#card5:hover{
+    background-color: #fbbc02;  
+    font-size: 20px; 
+}
+#card5{
+    margin-left: 230px;
+}
+#card6:hover{
+    background-color: #fbbc02;  
+    font-size: 20px; 
+}
+#card6{
+    margin-left: 1100px;
+    margin-top: -512px;
+}
+#texto1{
+    text-align: center;
+    margin-top: -250px;
+}
+#texto2{
+    text-align: center;
+    margin-top: -250px;
+}
+/*CSS de carrusel de Imágenes*/
+body{
+    background-color: lightgrey;
+    font-family: sans-serif;
+}
+.container{
+    margin-bottom: auto;
+    background-color: white;
+    width: 800px;
+    padding: 30px;
+}
+ul, li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+ul.slider{
+    position: relative;
+    width: 900px;
+    height: 300px;
+}
+ul.slider li {
+    margin-left: 100px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    width: inherit;
+    height: inherit;
+    transition: opacity .5s;
+    background:#fff;
+}
+ul.slider li img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+ul.slider li:first-child {
+    opacity: 1;
+}
+ul.slider li:target {
+    opacity: 1;
+}
+.menu{
+    text-align: center;
+    margin: 20px;
+}
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+.menu li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    background-color: grey;
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    border-radius: 100%;
+}
+#carruselcafetera{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    margin-left: 400px;
+}
+#carruselmacbook{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    margin-left: 400px;
+}
+#carruselsamsung{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    margin-left: 400px;
+}
+/*Formulario con Modal*/
+.modal-body{
+    display: flex;
+    justify-content: center;
+    background-color: #FBBC02;
+    font-family: 'Roboto', sans-serif;
+}
+.registro{
+    background-color: #FBBC02;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 450px;
+    height: 500px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.img-registro {
+    display: inline-block;
+    width: 154px;
+    height: 44px;
+    margin-left: 24%;
+    margin-bottom: 5%;
+}
+.h3-registro {
+    margin-bottom: 5%;
+    height: 50px;
+    text-align: center;
+    font-size: 19px;
+}
+.div-registros {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.input-registro {
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+.input-registro-2 {
+    margin-left: 37px;
+    margin-bottom: 5px;
+}
+.div-registros-c{
+    margin-left: 45px;
+    margin-bottom: 5px;
+}
+.div-registrar {
+    position: relative;
+    left: 50px;
+}
+.input-registro-4 {
+    background-color: #61029A;
+    color: white;
+    height: 30px;
+    margin-top: 10px;
+    transition-property: opacity;
+    transition-duration: .7s;
+    transition-timing-function: ease-in;
+}
+.registrado:focus {
+    background-color: #E7E7E7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
